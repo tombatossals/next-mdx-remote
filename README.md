@@ -427,7 +427,7 @@ Some noteworthy differences:
 
 - `<MDXRemote />` now accepts a `source` prop, instead of accepting the serialized output from `next-mdx-remote/serialize`
 - Custom components can no longer be provided by using the `MDXProvider` context from `@mdx-js/react`, as RSC does not support React Context
-- To access frontmatter outside of your MDX when passing `parseFrontmatter: true`, use the `compileMdx` method exposed from `next-mdx-remote/rsc`
+- To access frontmatter outside of your MDX when passing `parseFrontmatter: true`, use the `compileMDX` method exposed from `next-mdx-remote/rsc`
 - The `lazy` prop is no longer supported, as the rendering happens on the server
 - `<MDXRemote />` must be rendered on the server, as it is now an async component. Client components can be rendered as part of the MDX markup
 
